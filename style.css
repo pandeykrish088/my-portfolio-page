@@ -1,0 +1,205 @@
+.h1 {
+  background-color:#def123;
+}
+
+
+.krishp{
+  background:#fbff00;
+  display:flex;
+  justify-content:left;
+  border:solid;
+}
+
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+background-color: #fb4455;
+border: solid;
+}
+
+.icons{
+display: flex;
+flex-wrap:wrap-reverse;
+justify-content:space-between;
+background-color: #bcdef1;
+border: solid;
+}
+
+.game1{
+font-style:oblique;
+background-color:#f145ad;
+text-align:center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border: solid;
+position: relative;
+}
+
+.game2{
+font-style:oblique;
+background-color:#cafe12;
+text-align:center;
+font-family: cursive;
+border: solid;
+position: relative;
+}
+
+.game3{
+font-style:oblique;
+background-color:#dc2132;
+text-align:center;
+font-family: monospace;
+border: solid;
+position: relative;
+}
+
+.game4{
+font-style:oblique;
+background: #c2c2c3;
+text-align:center;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border: solid;
+position: relative;
+}
+
+.game5{
+font-style:oblique;
+background-color:#deddf5;
+text-align:center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: solid;
+position: relative;
+}
+
+.game6{
+font-style:oblique;
+background-color:#999999;
+text-align:center;
+font-family: sans-serif;
+border: solid;
+position: relative;
+}
+
+.titles{
+font-size:20px;
+font-style: oblique;
+width: 1093px;
+height:25mm;
+font-family: fantasy;
+background-color: #ef891a;
+border: solid;
+}
+
+.krishp a{
+border: solid;
+padding-top: 20px;
+}
+
+a:link{
+color: #eeeaaa;
+}
+
+a:visited{
+color: #ac22ef;
+}
+
+.krishp h1{
+margin: 30px;
+}
+
+.game1 h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.game1:hover h1{
+opacity: 1;
+}
+
+.game1:hover img{
+opacity: 0.5;
+}
+
+
+.game2 h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.game2:hover h1{
+opacity: 1;
+}
+  
+.game2:hover img{
+opacity: 0.5;
+}
+
+.game3 h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.game3:hover h1{
+opacity: 1;
+}
+  
+.game3:hover img{
+opacity: 0.5;
+}
+
+.game4 h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.game4:hover h1{
+opacity: 1;
+}
+  
+.game4:hover img{
+opacity: 0.5;
+}
+
+.game5 h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.game5:hover h1{
+opacity: 1;
+}
+  
+.game5:hover img{
+opacity: 0.5;
+}
+
+.game6 h1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.game6:hover h1{
+opacity: 1;
+}
+  
+.game6:hover img{
+opacity: 0.5;
+}
